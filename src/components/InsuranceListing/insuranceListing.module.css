@@ -1,0 +1,68 @@
+.wrapper {
+  margin-top: 60px;
+}
+
+.item {
+  border: 1px solid var(--grey03)
+}
+
+.item + .item {
+  margin-top: 16px;
+}
+
+.total {
+  margin: 0.5em 0 1.5em !important;
+  color: var(--grey01);
+}
+
+.section + .section {
+  margin-top: 32px;
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+  .item + .item {
+    margin-top: 0;
+  }
+  .item:nth-child(even) {
+    margin-left: 16px;
+  }
+  .item:nth-child(n+3) {
+    margin-top: 16px;
+  }
+}
+
+@media (min-width: 990px) and (max-width: 1120px) {
+  .item + .item {
+    margin-top: 16px;
+  }
+} 
+
+@media (min-width: 1121px) and (max-width: 1480px) {
+  .item + .item {
+    margin-top: 0;
+  }
+  .item:nth-child(even) {
+    margin-left: 16px;
+  }
+  .item:nth-child(n+3) {
+    margin-top: 16px;
+  }
+}
+
+@media (min-width: 1481px) {
+  .item + .item {
+    margin-top: 0;
+  }
+
+  .item:nth-child(n+4) {
+    margin-top: 16px;
+  }
+  
+  .item {
+    margin-left: 16px;
+  }
+  
+  .item:nth-child(3n+1) {
+    margin-left: 0;
+  }
+}

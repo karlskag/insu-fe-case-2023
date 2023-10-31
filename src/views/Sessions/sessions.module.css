@@ -1,0 +1,60 @@
+.container {
+  max-width: 600px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.day + .day {
+  margin-top: 40px;
+}
+
+.overlayContent {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.overlayButtons {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.overlayLink {
+  display: flex;
+  align-items: center;
+}
+
+.overlayLink svg {
+  margin-left: 15px;
+}
+
+.sessions {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  max-width: 460px;
+}
+
+.buttonContent {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.inputCard {
+  background-color: var(--grey04);
+  border-color: var(--grey03);
+  max-width: 460px;
+  margin: -20px 0 16px;
+  padding: 24px 32px 32px;
+  box-shadow: none;
+}

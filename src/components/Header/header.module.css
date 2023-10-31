@@ -1,0 +1,40 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--grey03);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px 20px 80px;
+  text-decoration: none;
+}
+
+.logoutButton {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: transparent;
+  border: none;
+  border-radius: 100px;
+  padding: 8px 8px 8px 16px;
+  margin-right: 54px;
+  color: var(--midnight);
+  cursor: pointer;
+}
+
+.logoutButton:hover {
+  background-color: var(--grey05);
+}
+
+.svg {
+  margin-right: 10px;
+}

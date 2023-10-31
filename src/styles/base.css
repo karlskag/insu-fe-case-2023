@@ -1,0 +1,145 @@
+@import "@insurely/ui/css/bootstrap.css";
+
+/* React dates calendar overrides */
+.DateRangePicker_picker {
+  z-index: 3;
+}
+
+.DateRangePicker > div,
+.DateRangePickerInput {
+  height: 100%;
+}
+
+.CalendarMonth_table {
+  border-collapse: initial;
+}
+
+.CalendarDay {
+  border-radius: 4px;
+  border: 3px solid white;
+}
+
+.DateRangePickerInput__withBorder {
+  border-radius: 8px;
+  border: 1px solid var(--grey01)
+}
+
+.DateRangePickerInput__withBorder:hover,
+.DateRangePickerInput__withBorder:hover input,
+.DateRangePickerInput__withBorder:hover .DateInput {
+  background-color: var(--grey04);
+}
+
+.DateInput {
+  width: 125px;
+}
+
+.DateInput,
+.DateInput_input {
+  font-size: 16px;
+  line-height: 17px;
+  color: var(--midnight);
+  font-family: 'Insurely Sans';
+  height: 54px;
+}
+
+.DateInput:nth-child(1),
+.DateInput:nth-child(1) input {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.DateInput:nth-child(1) input {
+  /* border: 1px solid var(--grey01) */
+}
+
+.DateInput:last-child,
+.DateInput:last-child input {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+
+}
+
+.SingleDatePicker,
+.SingleDatePicker > div,
+.SingleDatePickerInput {
+  height: 56px;
+}
+
+.SingleDatePicker {
+  padding-bottom: 7px;
+}
+
+.SingleDatePickerInput__withBorder {
+  border: 1px solid var(--grey01)
+}
+
+.SingleDatePickerInput__withBorder,
+.SingleDatePickerInput__withBorder > div,
+.SingleDatePickerInput__withBorder .DateInput_input {
+  border-radius: 8px;
+}
+
+
+.SingleDatePickerInput > .DateInput {
+  width: 100%;
+}
+
+.SingleDatePickerInput .DateInput_input {
+  padding: 16px;
+}
+
+.DateInput_input:hover {
+  cursor: pointer;
+}
+
+.DateRangePickerInput .DateInput:first-child .DateInput_input {
+  padding: 11px 15px 9px 25px;
+  border-right: none;
+}
+
+.DateRangePickerInput .DateInput:last-child .DateInput_input {
+  padding: 11px 25px 9px 15px;
+  border-left: none;
+}
+
+.CalendarDay__selected_span {
+  background: var(--mintTint);
+  color: var(--greenDark);
+  border-radius: 4px;
+}
+
+.CalendarDay__selected {
+  background: var(--greenDark);
+  border-color: white;
+  color: white;
+  border-radius: 4px;
+}
+
+.CalendarDay__selected,
+.CalendarDay__selected:active,
+.CalendarDay__selected:hover {
+  background: var(--green);
+  border-color: white;
+  color: #fff;
+}
+
+.CalendarDay__selected:hover {
+  background: var(--green);
+  color: white;
+  border: 3px solid white;
+  border-radius: 4px;
+}
+
+.CalendarDay__selected_span:active,
+.CalendarDay__selected_span:hover {
+  background: var(--green);
+  border: 3px solid white;
+}
+
+.CalendarDay__hovered_span:hover,
+.CalendarDay__hovered_span {
+  background: var(--mintTint);
+  border-color: white;
+  color: var(--greenDark);
+  border-radius: 4px;
+}

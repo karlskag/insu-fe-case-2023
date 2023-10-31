@@ -1,0 +1,41 @@
+.card {
+  min-width: 360px;
+  max-width: 360px;
+}
+
+.top,
+.bottom {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.top {
+  padding-bottom: 10px;
+}
+
+.bottom {
+  padding-top: 10px;
+}
+
+.top div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expireDate {
+  color: var(--grey01);
+}
+
+@media (max-width: 391px) {
+  .card {
+    min-width: 280px;
+  }
+}

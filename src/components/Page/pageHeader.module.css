@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  align-items: center;
+  margin-right: -16px;
+  border-bottom: 1px solid var(--grey03);
+  padding: 0 15px;
+  height: 36px;
+}
+
+.link {
+  line-height: 43px;
+  color: var(--midnight);
+  font-weight: 400;
+}
+
+.chevron {
+  margin: 0 10px;
+}
+
+.gobackButton {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: transparent;
+  border: none;
+  padding: 8px;
+  color: var(--green);
+  cursor: pointer;
+}

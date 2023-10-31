@@ -1,0 +1,12 @@
+{
+  "uuid": "723dbfea-2d95-4341-96df-51a70fa8d2cf",
+  "clientId": "031d60b4-cd9b-405c-94ab-30019f4cc64c",
+  "customerId": "af426593-78f7-44f8-8b16-ecd78c842f5a",
+  "email": "johan@insurely.se",
+  "enabled": true,
+  "permissions": [
+    "READ_STATISTICS",
+    "READ_CUSTOMER_CLIENTS"
+  ],
+  "creationDate": "2020-09-11T07:51:24.378"
+}

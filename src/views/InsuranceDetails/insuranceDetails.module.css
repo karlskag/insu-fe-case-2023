@@ -1,0 +1,133 @@
+.topContent {
+  display: flex;
+  margin: 52px 0 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.alignItems {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons button + button {
+  margin-top: 10px;
+}
+
+.buttons button svg {
+  margin-right: 10px;
+}
+
+.otherInsurance {
+  display: flex;
+  flex-direction: row;
+  border-radius: 6px;
+  border: 1px solid var(--yellow01);
+  background-color: var(--yellow02);
+  padding: 20px 40px 20px 20px;
+  margin-top: 15px;
+  max-width: 500px;
+}
+
+.otherInsurance svg {
+  margin-right: 12px;
+  margin-top: -3px;
+}
+
+.otherInsurance p + p {
+  margin-top: 8px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 64px;
+}
+
+@media (min-width: 1000px) {
+  .content {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 112px;
+  }
+}
+
+.detailsTableSection {
+  padding-bottom: 48px;
+}
+
+.insuranceParameters {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  /*flex: 5;*/
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+}
+
+.insuranceDetails, .insuranceParameters {
+  flex: 1
+}
+
+.parametersHeading {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.overlayButtons {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-top: 24px;
+  width: 60%;
+}
+
+.cancellationErrorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/*START DETAILS STYLES*/
+
+.summaryTable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tableHead {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.tableRow {
+  margin-top: 20px;
+  border-bottom: 0.5px solid var(--grey02);
+}
+
+.tableValue {
+  text-align: right;
+}

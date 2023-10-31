@@ -1,0 +1,50 @@
+.logo {
+  margin: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo svg {
+  width: 180px;
+}
+
+.sideMenu {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: auto;
+}
+
+.link {
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  padding: 10px 0 10px 16px;
+}
+
+.bottomLinks {
+  position: absolute;
+  bottom: 16px;
+  left: 0;
+  right: 0;
+  padding: 0 30px 15px 30px;
+}
+
+.logoutButton {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: transparent;
+  border: none;
+  border-radius: none;
+  padding: 8px 8px 8px 16px;
+  color: var(--midnight);
+  cursor: pointer;
+  width: 243px;
+}
+
+.logoutButton:hover {
+  background-color: var(--mint01);
+}
