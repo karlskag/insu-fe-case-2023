@@ -1,20 +1,26 @@
 # Insurely frontend code case
 
-We have put together a skeleton for a webapp that shows detailed info about an insurance, but it doesn't do that yet.
-Your assignment is to implement the provided design for the insurance page. Do as much as you can in maximum 3-4 hours.
+## Notes
+I worked for around 4 hours on the case, would have needed a bit more time to finish everything up.
 
-**Focus on the implementation of the design**. The actual functionality of the page is secondary.
+### Still TODO:
+- Expandable row design is not completed
+  - Chevron icon should be a plus/minus and on left side of row content
+  - Status icon should be on right side of row content
 
-All the necessary insurance data is provided. One object for home insurance.
+- Table data formatting
+  - Postal code, company name & living area should be formatted
+    
+- Needs some more work to look good on smaller screens
 
-Don't hesitate to ask if you have any questions!
+## The design
+### Actual: 
+<img width="1733" alt="image" src="https://github.com/karlskag/insu-fe-case-2023/assets/10896176/2dce6e37-ffea-465b-b262-0225502dc18f">
 
-Good luck
+### Expected: 
+<img width="1126" alt="image" src="https://github.com/karlskag/insu-fe-case-2023/assets/10896176/cc87ef4b-33cd-4ae3-a523-1b501e3704b0">
 
 ## Building and running
 
 - npm run start
 
-## The design
-
-Check insurance_page.png in the root of the project
