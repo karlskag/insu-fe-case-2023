@@ -5,7 +5,6 @@ import {HeadlineFive, HeadlineSix, ParagraphBody} from "@insurely/ui";
 interface DetailsRow {
   label: string,
   value: string | number | undefined
-  visible?: boolean
 }
 
 interface InsuranceDetailsTableProps {

@@ -15,7 +15,7 @@ import { Messages } from 'translations/types';
 import { importMessages } from 'translations/utils';
 import { SessionPage } from 'views/Session/SessionPage';
 import { SessionsPage } from 'views/Sessions/SessionsPage';
-import {InsuranceDetailsPage} from "../views/InsuranceDetails/InsuranceDetailsPage";
+import { InsuranceDetailsPage } from '../views/InsuranceDetails/InsuranceDetailsPage';
 
 const UserRouter = () => {
   const [messages, setMessages] = useState<Messages>();
@@ -47,7 +47,7 @@ const UserRouter = () => {
       <SideNav />
       <Routes>
         <Route path={SESSIONS_PAGE_ROUTE} element={<SessionsPage />} />
-        <Route path={`${SESSIONS_PAGE_ROUTE}/:sessionId`} >
+        <Route path={`${SESSIONS_PAGE_ROUTE}/:sessionId`}>
           <Route index element={<SessionPage />} />
           <Route path=":externalId" element={<InsuranceDetailsPage />} />
         </Route>

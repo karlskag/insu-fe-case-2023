@@ -2,7 +2,7 @@ import { InsuranceResponse } from '../../../types/insurance';
 import React, { FC } from 'react';
 import styles from '../insuranceDetails.module.css';
 import { GeneralInsuranceDetails } from './GeneralInsuranceDetails';
-import {ParameterDetails} from "./ParameterDetails";
+import { ParameterDetails } from './ParameterDetails';
 
 interface InsuranceDetailsProps {
   insurance: InsuranceResponse;
