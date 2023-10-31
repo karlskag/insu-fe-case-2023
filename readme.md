@@ -14,11 +14,11 @@ I worked for around 4 hours on the case, would have needed a bit more time to fi
 - Needs some more work to look good on smaller screens
 
 ## The design
-### Actual: 
-<img width="1733" alt="image" src="https://github.com/karlskag/insu-fe-case-2023/assets/10896176/2dce6e37-ffea-465b-b262-0225502dc18f">
+### Actual:
+![finished design](actual_insurance_page.png)
 
 ### Expected: 
-<img width="1126" alt="image" src="https://github.com/karlskag/insu-fe-case-2023/assets/10896176/cc87ef4b-33cd-4ae3-a523-1b501e3704b0">
+![expected design](insurance_page.png)
 
 ## Building and running
 

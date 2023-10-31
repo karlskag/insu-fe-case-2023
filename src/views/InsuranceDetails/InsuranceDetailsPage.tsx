@@ -9,7 +9,14 @@ import { useParams } from 'react-router-dom';
 import { InsuranceDetails } from './comp/InsuranceDetails';
 import { Page } from '../../components/Page/Page';
 import styles from './insuranceDetails.module.css';
-import { Button, CompanyLogo, HeadlineThree, ParagraphTiny, IconDownload } from '@insurely/ui';
+import {
+  Button,
+  CompanyLogo,
+  HeadlineThree,
+  ParagraphTiny,
+  IconDownload,
+  HeadlineFive,
+} from '@insurely/ui';
 import { useFormatMessage } from '../../hooks/useFormatMessage';
 
 export const InsuranceDetailsPage: FC = () => {
@@ -25,7 +32,15 @@ export const InsuranceDetailsPage: FC = () => {
     setInsuranceData(matchingInsurance);
   }, [externalId, items]);
 
-  if (!insuranceData?.collectionId) return null;
+  if (!insuranceData?.collectionId) {
+    return (
+      <Page>
+        <div className={styles.topContent}>
+          <HeadlineFive>{formatMessage('No insurances found')}</HeadlineFive>
+        </div>
+      </Page>
+    );
+  }
 
   const {
     displayType,
