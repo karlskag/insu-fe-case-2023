@@ -57,6 +57,7 @@
 
 .content {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   margin-top: 64px;
 }

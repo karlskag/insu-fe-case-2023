@@ -19,6 +19,7 @@ export const GeneralInsuranceDetails: FC<InsuranceDetailsTablesProps> = ({ insur
     renewalDate,
     insuranceNumber,
     insuranceCompany,
+    insuranceName,
     insuranceObjectStreetAddress,
     insuranceObjectPostalCode,
     insuredMovablesAmount,
@@ -60,6 +61,10 @@ export const GeneralInsuranceDetails: FC<InsuranceDetailsTablesProps> = ({ insur
             {
               label: formatMessage('Insurance company'),
               value: insuranceCompany,
+            },
+            {
+              label: formatMessage('Insurance name'),
+              value: insuranceName,
             },
             {
               label: formatMessage('Insurance object address'),
